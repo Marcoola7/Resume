@@ -1,0 +1,127 @@
+.redes {
+  padding: 0.4rem;
+  margin: 0.47rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(44, 44, 44);
+  justify-items: center;
+}
+
+.rodape {
+  width: 17rem;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.experiencia {
+  background-color: #5f5f5f;
+  height: auto;
+  width: 22rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: #cfbea7;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+}
+
+.nome {
+  font-size: 2rem;
+  color: rgb(207, 190, 167);
+  margin-top: 2.7rem;
+}
+
+.formacoes {
+  background-color: rgb(95, 95, 95);
+  height: auto;
+  width: 22rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: rgb(207, 190, 167);
+
+}
+
+.curriculo {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+
+.sociais {
+  color: rgb(207, 190, 167);
+  text-align: center;
+}
+.centro {
+  justify-content: center;
+  margin-left: 6px;
+}
+.resumoPai {
+  color: rgb(207, 190, 167);
+  background-color: rgb(95, 95, 95);
+  border-radius: 4px;
+  padding: 0.4rem;
+  margin: 2rem;
+  text-align:center;
+  margin-bottom: 1rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+
+
+}
+img {
+  height: 130px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.fotoNome {
+  display: flex;
+  justify-content: center;
+
+}
+.info{
+  background-color: rgb(95, 95, 95);
+  height: auto;
+  width: 22rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: rgb(207, 190, 167);
+}
+.cont {
+  background-color: rgb(95, 95, 95);
+  height: auto;
+  width: 22rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: rgb(207, 190, 167);
+}
+.resumo{
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 767px) { 
+  .resumoPai {
+    color: rgb(207, 190, 167);
+    background-color: rgb(95, 95, 95);
+    border-radius: 4px;
+    padding: 1rem;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 10px; 
+  }
+  .cont {
+    background-color: rgb(95, 95, 95);
+    height: auto;
+    width: 22rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: rgb(207, 190, 167);
+    margin: auto;
+  }
+
+ }
